@@ -1,0 +1,27 @@
+.hero {
+  background-image: url("bacgrounf_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Makes the header take the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.main-img {
+  background-image: url("bacgrounf_img.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p.lead {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
